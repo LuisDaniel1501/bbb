@@ -21,8 +21,8 @@
     <div id="auspiciantes">
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Playstation_logo_colour.svg/512px-Playstation_logo_colour.svg.png" alt="PS5">
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/512px-Microsoft_logo.svg.png" alt="Microsoft">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Youtube_social_red_squircle_%282017%29.svg/512px-Youtube_social_red_squircle_%282017%29.svg.png" alt="YouTube">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Mojang_Studios_Logo_%282020%2C_full%29.svg/512px-Mojang_Studios_Logo_%282020%2C_full%29.svg.png" alt="Mojang">
+      <img src="https://pngdownload.io/png-image/youtube-logo-png-symbol-for-video-platform-transparent/" alt="YouTube">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Mojang_Studios_Logo_%282020%2C_full%29.png/800px-Mojang_Studios_Logo_%282020%2C_full%29.png" alt="Mojang Studios">
     </div>
 
     <div class="stream" id="tercero">
@@ -38,7 +38,7 @@
         <iframe
           width="100%"
           height="450"
-          src="https://www.youtube.com/embed/live_stream?channel=UCvZzo1-uW8pQXmOjGLvKdJA"
+          src="https://www.youtube.com/embed/live_stream?channel=YOUR_CHANNEL_ID"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen>
@@ -48,7 +48,7 @@
   </main>
 
   <footer>
-    <p>Este sitio fue creado por <strong>TU NOMBRE</strong></p>
+    <p>Este sitio fue creado por luis Daniel</p>
   </footer>
 </body>
 </html>
