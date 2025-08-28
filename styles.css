@@ -1,114 +1,95 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; margin: 0; padding: 0; }
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #111;
+  background: #0f0f0f;
   color: #fff;
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
+/* Header */
 header {
-  background: #0a0a0a;
+  background: #07100a;
   padding: 20px;
   text-align: center;
   border-bottom: 3px solid #00ff7f;
 }
-
-header h1 {
-  color: #00ff7f;
-  margin-bottom: 10px;
-}
-
-nav a {
+header h1 { color: #00ff7f; margin-bottom: 10px; }
+header nav a {
   color: #fff;
   text-decoration: none;
-  margin: 0 15px;
-  font-weight: bold;
-  transition: color 0.3s;
+  margin: 0 12px;
+  font-weight: 700;
+  padding: 8px 12px;
+  border-radius: 8px;
 }
+header nav a:hover { color: #07100a; background: #00ff7f; }
 
-nav a:hover {
-  color: #00ff7f;
-}
-
+/* Main */
 main {
-  padding: 30px;
-  max-width: 1200px;
-  margin: auto;
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 0 16px;
 }
 
-h2 {
-  color: #00ff7f;
-  margin-bottom: 20px;
-  text-align: center;
-}
+h2 { color: #00ff7f; text-align: center; margin-bottom: 18px; }
 
+/* Auspiciantes (grid) */
 #auspiciantes {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 20px;
   justify-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
-
 #auspiciantes img {
+  max-width: 220px;
   width: 100%;
-  max-width: 200px;
   height: auto;
   background: #fff;
   padding: 10px;
-  border-radius: 8px;
-  transition: transform 0.3s;
+  border-radius: 10px;
+  transition: transform .25s;
 }
+#auspiciantes img:hover { transform: translateY(-6px) scale(1.03); }
 
-#auspiciantes img:hover {
-  transform: scale(1.1);
-}
-
+/* Stream section */
 .stream {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-  align-items: center;
-  background: #1a1a1a;
+  background: #121212;
   padding: 20px;
   border-radius: 12px;
   border: 2px solid #00ff7f;
+  align-items: center;
 }
-
-.stream .logo img {
-  width: 100%;
-  max-width: 250px;
-}
-
-.stream .detalle h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-  color: #00ff7f;
-}
-
+.stream .logo img { max-width: 260px; width: 100%; }
+.stream .detalle h2 { color: #00ff7f; margin-bottom: 8px; }
 .stream .participar {
   grid-column: span 2;
   text-align: center;
+  margin-top: 10px;
+}
+.stream .participar a {
+  display: inline-block;
+  text-decoration: none;
+  color: #07100a;
+  background: #00ff7f;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: 700;
+}
+.stream .participar a:hover {
+  background: #00cc66;
 }
 
-.stream iframe {
-  width: 100%;
-  max-width: 800px;
-  height: 450px;
-  border-radius: 12px;
-  border: 3px solid #00ff7f;
-}
-
+/* Footer */
 footer {
-  background: #0a0a0a;
-  padding: 15px;
+  margin-top: 30px;
+  padding: 14px;
   text-align: center;
-  color: #ccc;
+  background: #07100a;
+  color: #ddd;
   border-top: 3px solid #00ff7f;
-  margin-top: 40px;
 }
