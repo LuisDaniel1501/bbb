@@ -1,54 +1,55 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Minecraft Fest 2025</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <h1>Minecraft Fest 2025</h1>
+    <h1 id="primero">Minecraft Fest 2025</h1>
     <nav>
-      <a href="#principal">Inicio</a>
-      <a href="#segundo">Auspiciantes</a>
-      <a href="#tercero">Stream</a>
+      <a href="#primero">PARTICIPAR</a>
+      <a href="#segundo">AUSPICIANTES</a>
+      <a href="#tercero">STREAM</a>
     </nav>
   </header>
 
   <main id="principal">
     <h2 id="segundo">Auspiciantes</h2>
+
     <div id="auspiciantes">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Playstation_logo_colour.svg/512px-Playstation_logo_colour.svg.png" alt="PS5">
+      <!-- PS / Microsoft / Mojang / Twitch (YouTube eliminado) -->
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Playstation_logo_colour.svg/512px-Playstation_logo_colour.svg.png" alt="PlayStation / PS5">
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/512px-Microsoft_logo.svg.png" alt="Microsoft">
-      <img src="https://pngdownload.io/png-image/youtube-logo-png-symbol-for-video-platform-transparent/" alt="YouTube">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Mojang_Studios_Logo_%282020%2C_full%29.png/800px-Mojang_Studios_Logo_%282020%2C_full%29.png" alt="Mojang Studios">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Mojang_Studios_Logo_%282020%2C_full%29.svg/512px-Mojang_Studios_Logo_%282020%2C_full%29.svg.png" alt="Mojang Studios">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Twitch_logo_2019.svg/512px-Twitch_logo_2019.svg.png" alt="Twitch">
     </div>
 
     <div class="stream" id="tercero">
       <div class="logo">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Minecraft_logo.svg" alt="Minecraft Fest">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Minecraft_logo.svg/512px-Minecraft_logo.svg.png" alt="Minecraft Fest">
       </div>
+
       <div class="detalle">
         <h2>Minecraft Fest 2025</h2>
-        <p>Transmisión en vivo del evento más épico de la comunidad Minecraft.</p>
+        <p>Transmisión y actividades en vivo con los mejores creadores — construcciones, PvP y sorteos.</p>
       </div>
+
       <div class="participar">
-        <h3>🎥 En vivo ahora:</h3>
-        <iframe
-          width="100%"
-          height="450"
-          src="https://www.youtube.com/embed/live_stream?channel=YOUR_CHANNEL_ID"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen>
-        </iframe>
+        <h3>🎥 Ver el stream (YouTube)</h3>
+        <!-- Enlace fiable al video/stream (abre en nueva pestaña) -->
+        <a href="https://www.youtube.com/watch?v=0dPQ2wokQnM" target="_blank" rel="noopener noreferrer">
+          Unirme al Stream (abrir en YouTube)
+        </a>
+
       </div>
     </div>
   </main>
 
   <footer>
-    <p>Este sitio fue creado por luis Daniel</p>
+    <p>Este sitio fue creado por <strong>LUIS DANIEL BELTRAN SERRANO</strong></p>
   </footer>
 </body>
 </html>
