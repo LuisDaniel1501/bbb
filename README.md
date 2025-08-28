@@ -3,46 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Minecraft Live Event</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Minecraft Fest 2025</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1 id="primero">Minecraft Live Event</h1>
+    <h1>Minecraft Fest 2025</h1>
     <nav>
-      <ul>
-        <li><a href="#primero">PARTICIPAR</a></li>
-        <li><a href="#segundo">AUSPICIANTES</a></li>
-        <li><a href="#tercero">STREAM</a></li>
-      </ul>
+      <a href="#principal">Inicio</a>
+      <a href="#segundo">Auspiciantes</a>
+      <a href="#tercero">Stream</a>
     </nav>
   </header>
 
-  <main>
-    <div id="principal">
-      <h2 id="segundo">Auspiciantes</h2>
-      <div id="auspiciantes">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/PlayStation_logo.svg" alt="PS5">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Mojang_Studios_logo.svg" alt="Mojang">
-      </div>
+  <main id="principal">
+    <h2 id="segundo">Auspiciantes</h2>
+    <div id="auspiciantes">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/0/0d/PlayStation_logo.svg" alt="PS5">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/9f/Youtube%28amin%29.png" alt="YouTube">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/57/Mojang_Studios_Logo_%282020%2C_full%29.png" alt="Mojang">
+    </div>
 
-      <div class="stream">
-        <div class="logo">
-          <img src="https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png" alt="Logo Minecraft">
-        </div>
-        <div class="detalle">
-          <h2 id="tercero">Minecraft Live 2025</h2>
-          <p>¡Vive el evento más grande de Minecraft con sorpresas, concursos y participación en vivo!</p>
-        </div>
-        <div class="participar">
-          <iframe src="https://www.youtube.com/embed/0pEcxN5pW8c" title="Minecraft Live Stream" frameborder="0" allowfullscreen></iframe>
-        </div>
+    <div class="stream" id="tercero">
+      <div class="logo">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/48/Minecraft_logo.svg" alt="Minecraft Fest">
+      </div>
+      <div class="detalle">
+        <h2>Minecraft Fest 2025</h2>
+        <p>Transmisión en vivo del evento más épico de la comunidad Minecraft.</p>
+      </div>
+      <div class="participar">
+        <h3>🎥 En vivo ahora:</h3>
+        <iframe
+          width="100%"
+          height="450"
+          src="https://www.youtube.com/embed/live_stream?channel=UCvZzo1-uW8pQXmOjGLvKdJA"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
       </div>
     </div>
   </main>
 
+  <footer>
+    <p>© 2025 Minecraft Fest - Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
   <footer>
     <p>Este sitio fue creado por LUIS DANIEL BELTRAN SERRANO</p>
   </footer>
